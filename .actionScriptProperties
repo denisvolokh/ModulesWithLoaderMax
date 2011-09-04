@@ -20,7 +20,11 @@
   <applications>
     <application path="ModulesWithLoaderMax.mxml"/>
   </applications>
-  <modules/>
+  <modules>
+    <module application="src/ModulesWithLoaderMax.mxml" destPath="b/ModuleB.swf" optimize="true" sourcePath="src/b/ModuleB.mxml"/>
+    <module application="src/ModulesWithLoaderMax.mxml" destPath="a/ModuleA.swf" optimize="true" sourcePath="src/a/ModuleA.mxml"/>
+    <module application="src/ModulesWithLoaderMax.mxml" destPath="c/ModuleC.swf" optimize="true" sourcePath="src/c/ModuleC.mxml"/>
+  </modules>
   <buildCSSFiles/>
   <flashCatalyst validateFlashCatalystCompatibility="false"/>
 </actionScriptProperties>
