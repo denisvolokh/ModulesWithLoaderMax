@@ -21,9 +21,9 @@
     <application path="ModulesWithLoaderMax.mxml"/>
   </applications>
   <modules>
-    <module application="src/ModulesWithLoaderMax.mxml" destPath="b/ModuleB.swf" optimize="true" sourcePath="src/b/ModuleB.mxml"/>
-    <module application="src/ModulesWithLoaderMax.mxml" destPath="a/ModuleA.swf" optimize="true" sourcePath="src/a/ModuleA.mxml"/>
-    <module application="src/ModulesWithLoaderMax.mxml" destPath="c/ModuleC.swf" optimize="true" sourcePath="src/c/ModuleC.mxml"/>
+    <module application="src/ModulesWithLoaderMax.mxml" destPath="com/modules/c/ModuleC.swf" optimize="true" sourcePath="src/com/modules/c/ModuleC.mxml"/>
+    <module application="src/ModulesWithLoaderMax.mxml" destPath="com/modules/b/ModuleB.swf" optimize="true" sourcePath="src/com/modules/b/ModuleB.mxml"/>
+    <module application="src/ModulesWithLoaderMax.mxml" destPath="com/modules/a/ModuleA.swf" optimize="true" sourcePath="src/com/modules/a/ModuleA.mxml"/>
   </modules>
   <buildCSSFiles/>
   <flashCatalyst validateFlashCatalystCompatibility="false"/>
