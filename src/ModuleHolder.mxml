@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" 
+		   width="400" height="400">
+	<mx:HBox width="100%" horizontalAlign="center">
+		<mx:Button id="buttonLoadModules"
+			label="Start load modules"/>
+		<mx:Button id="buttonShowA"
+				   label="Show A"/>
+		<mx:Button id="buttonShowB"
+				   label="Show B"/>
+		<mx:Button id="buttonShowC"
+				   label="Show C"/>
+	</mx:HBox>
+</mx:Canvas>
